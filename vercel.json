@@ -1,4 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs"
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.recivu.it/",
+      "permanent": false
+    }
+  ]
 }
