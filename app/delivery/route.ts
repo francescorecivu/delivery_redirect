@@ -1,5 +1,7 @@
 import { redirect } from 'next/navigation';
 
-export async function GET(request: Request) {
+export const dynamic = 'force-dynamic';
+
+export async function GET() {
   redirect('https://www.recivu.it/');
 }
