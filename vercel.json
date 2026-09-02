@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://www.recivu.it/",
+      "destination": "https://wa.me/393534216068?text=Hey%20Recivu!%20Ho%20bisogno%20di%20una%20fattura",
       "permanent": false
     }
   ]
